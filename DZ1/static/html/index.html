@@ -10,29 +10,46 @@
 
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between px-4">
-        <a href="#" class="navbar-brand">AskMe</a>
+        <a href="#" class="navbar-brand"><span class="mb-0 h2">AskMe</span></a>
         <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Question" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
-        <div class="">
-            <img src="" class="img-responsive" alt="Image">
-            <h4>WALHAY</h4>
-            <a href="#">Settings</a>
-            <a href="#">Log Out</a>
+        <div class="d-flex">
+            <div class="row">
+                <div class="col-4">
+                    <img src="" class="img-fluid h-100" alt="Image">
+                </div>
+                <div class="col-8">
+                    <div class="flex-grow-1">
+                        <h4 class="username">WALHAY</h4>
+                        <a class="pr-4" href="#">Settings</a>
+                        <a class="pr-4" href="#">Log Out</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </nav>
-
 </header>
 
 <body>
     <div class="container-fluid m-4">
         <div class="row">
             <div class="col-8">
+                <div class="row">
+                    <h3 class="col-auto">New Questions</h3>
+                    <a class="col-auto align-self-center" href="#">Hot Questions</a>
+                    <div class="card w-100">
+                        <div class="card-body row">
+                            <img class="col" src="" alt="Image"></img>
+                            <h4 class="col card-title">Title</h4>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-4">
                 <div class="tags">
-                    <h3>Tags</h3>
+                    <h3>Popular Tags</h3>
                     <span class="badge bg-primary">Primary</span>
                     <span class="badge bg-secondary">Secondary</span>
                     <span class="badge bg-success">Success</span>
@@ -45,17 +62,11 @@
                 <div class="best-members pt-4">
                     <h3>Best Members</h3>
                     <div class="list-group list-group-flush">
-                        <button type="button" class="list-group-item list-group-item-action" aria-current="true">
-                            Текущая кнопка
-                        </button>
-                        <button type="button" class="list-group-item list-group-item-action">Второй элемент
-                            кнопка</button>
-                        <button type="button" class="list-group-item list-group-item-action">Третий элемент
-                            кнопка</button>
-                        <button type="button" class="list-group-item list-group-item-action">Четвертый элемент
-                            кнопка</button>
-                        <button type="button" class="list-group-item list-group-item-action" disabled>Отключенный
-                            элемент кнопка</button>
+                        <button type="button" class="list-group-item list-group-item-action">First member</button>
+                        <button type="button" class="list-group-item list-group-item-action">Second member</button>
+                        <button type="button" class="list-group-item list-group-item-action">Third member</button>
+                        <button type="button" class="list-group-item list-group-item-action">Fourth member</button>
+                        <button type="button" class="list-group-item list-group-item-action">Fifth member</button>
                     </div>
                 </div>
             </div>
@@ -63,7 +74,16 @@
     </div>
 </body>
 
-<footer class="footer fixed-bottom container">
+<footer class="footer fixed-bottom">
+    <nav class="container">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">...</a></li>
+            <li class="page-item"><a class="page-link" href="#">69</a></li>
+        </ul>
+    </nav>
 </footer>
 
 </html>
