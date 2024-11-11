@@ -17,15 +17,9 @@
         </form>
         <div class="d-flex">
             <div class="row">
-                <div class="col-4">
-                    <img src="" class="img-fluid h-100" alt="Image">
-                </div>
-                <div class="col-8">
-                    <div class="flex-grow-1">
-                        <h4 class="username">WALHAY</h4>
-                        <a class="pr-4" href="#">Settings</a>
-                        <a class="pr-4" href="#">Log Out</a>
-                    </div>
+                <div class="flex-grow-1">
+                    <a class="pr-4" href="#">Log In</a>
+                    <a class="pr-4" href="#">Register</a>
                 </div>
             </div>
         </div>
@@ -36,27 +30,24 @@
     <div class="container-fluid m-4">
         <div class="row">
             <div class="col-8">
-                <h3 class="col-auto">New Question</h3>
+                <h3 class="col-auto">Log In</h3>
                 <form class="d-grid gap-3">
                     <div class="form-group row">
-                        <label for="askTitle" class="col-2 col-form-label">Title</label>
+                        <label for="inputLogin" class="col-2 col-form-label">Login</label>
                         <div class="col-8">
-                            <input type="text" class="form-control" id="askTitle" />
+                            <input type="text" class="form-control" id="inputLogin" />
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="askText" class="col-2 col-form-label">Text</label>
+                        <label for="inputPassword" class="col-2 col-form-label">Password</label>
                         <div class="col-8">
-                            <textarea class="form-control" id="askText" rows="3"></textarea>
+                            <input type="password" class="form-control" id="inputPassword" />
                         </div>
                     </div>
-                    <div class="form-group row">
-                        <label for="askTags" class="col-2 col-form-label">Tags</label>
-                        <div class="col-8">
-                            <input type="text" class="form-control" id="askTags">
-                            <button type="submit" class="btn btn-primary mt-2">Ask!</button>
-                        </div>
+                    <div class="form-group col align-self-center">
+                        <button type="submit" class="btn btn-primary mt-2">Log in!</button>
                     </div>
+                    <a href="#">Create new accout</a>
                 </form>
             </div>
             <div class="col-4">

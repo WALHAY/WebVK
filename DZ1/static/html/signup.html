@@ -36,73 +36,48 @@
     <div class="container-fluid m-4">
         <div class="row">
             <div class="col-8">
-                <div class="row">
-                    <div class="col-2">
-                        <div class="border mb-2" style="height: 100px">
-                            <img class="img-fluid" src="" alt="Image">
-                        </div>
-                        <input class="form-control" type="number" placeholder="0" aria-label="likeCounter">
-                    </div>
-                    <div class="row col-8">
-                        <h4 class="">Question Title</h4>
-                        <p class="">Question text</p>
-                        <div>
-                            Tags:
-
-                            <a href="#" class="card-link">Tag</a>
-                            <a href="#" class="card-link">Tag</a>
-                            <a href="#" class="card-link">Tag</a>
-                            <a href="#" class="card-link">Tag</a>
+                <h3 class="col-auto">Registration</h3>
+                <form class="d-grid gap-3">
+                    <div class="form-group row">
+                        <label for="inputLogin" class="col-2 col-form-label">Login</label>
+                        <div class="col-8">
+                            <input type="text" class="form-control" id="inputLogin" />
                         </div>
                     </div>
-                </div>
-                <hr />
-                <div class="d-grid gap-2">
-                    <div class="card flex-row">
-                        <img class="card-img-left m-2" src="" alt="Image" />
-                        <div class="card-body">
-                            <p class="card-text">Answer text</p>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="isCorrect">
-                                <label class="form-check-label" for="isCorrect">
-                                    Correct!
-                                </label>
-                            </div>
+                    <div class="form-group row">
+                        <label for="inputEmail" class="col-2 col-form-label">Email</label>
+                        <div class="col-8">
+                            <input type="text" class="form-control" id="inputEmail" />
                         </div>
                     </div>
-                    <div class="card flex-row">
-                        <img class="card-img-left m-2" src="" alt="Image" />
-                        <div class="card-body">
-                            <p class="card-text">Answer text</p>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="isCorrect">
-                                <label class="form-check-label" for="isCorrect">
-                                    Correct!
-                                </label>
-                            </div>
+                    <div class="form-group row">
+                        <label for="inputNickname" class="col-2 col-form-label">Nickname</label>
+                        <div class="col-8">
+                            <input type="text" class="form-control" id="inputNickname" />
                         </div>
                     </div>
-                    <div class="card flex-row">
-                        <img class="card-img-left m-2" src="" alt="Image" />
-                        <div class="card-body">
-                            <p class="card-text">Answer text</p>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="isCorrect">
-                                <label class="form-check-label" for="isCorrect">
-                                    Correct!
-                                </label>
-                            </div>
+                    <div class="form-group row">
+                        <label for="inputPassword" class="col-2 col-form-label">Password</label>
+                        <div class="col-8">
+                            <input type="password" class="form-control" id="inputPassword" />
                         </div>
                     </div>
-                    <hr />
-                    <form>
-                        <div class="form-group row">
-                            <textarea class="form-control" id="askText" rows="3"
-                                placeholder="Enter your answer here"></textarea>
-                            <button type="submit" class="btn btn-primary mt-2 col-2">Answer</button>
+                    <div class="form-group row">
+                        <label for="inputRepeatPassword" class="col-2 col-form-label">Repeat Password</label>
+                        <div class="col-8">
+                            <input type="password" class="form-control" id="inputRepeatPassword" />
                         </div>
-                    </form>
-                </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputAvatar" class="col-2 col-form-label">Upload avatar</label>
+                        <div class="col-8">
+                            <input class="form-control" type="file" id="inputAvatar">
+                        </div>
+                    </div>
+                    <div class="form-group col align-self-center">
+                        <button type="submit" class="btn btn-primary mt-2">Register</button>
+                    </div>
+                </form>
             </div>
             <div class="col-4">
                 <div class="tags">
