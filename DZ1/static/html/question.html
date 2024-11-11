@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AskMe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between px-4">
+        <a href="#" class="navbar-brand"><span class="mb-0 h2">AskMe</span></a>
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Question" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div class="d-flex">
+            <div class="row">
+                <div class="col-4">
+                    <img src="" class="img-fluid h-100" alt="Image">
+                </div>
+                <div class="col-8">
+                    <div class="flex-grow-1">
+                        <h4 class="username">WALHAY</h4>
+                        <a class="pr-4" href="#">Settings</a>
+                        <a class="pr-4" href="#">Log Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="container-fluid m-4">
+        <div class="row">
+            <div class="col-8">
+                <div class="row">
+                    <img class="col-2 float-left p-1" src="" alt="Image" />
+                    <div class="row col-8">
+                        <h4 class="">Question Title</h4>
+                        <p class="">Question text</p>
+                        <h5 class="">Tags:</h5>
+                    </div>
+                </div>
+                <hr />
+                <div class="d-grid gap-2">
+                    <div class="card flex-row">
+                        <img class="card-img-left m-2" src="" alt="Image" />
+                        <div class="card-body">
+                            <p class="card-text">Answer text</p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="isCorrect">
+                                <label class="form-check-label" for="isCorrect">
+                                    Correct!
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex-row">
+                        <img class="card-img-left m-2" src="" alt="Image" />
+                        <div class="card-body">
+                            <p class="card-text">Answer text</p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="isCorrect">
+                                <label class="form-check-label" for="isCorrect">
+                                    Correct!
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex-row">
+                        <img class="card-img-left m-2" src="" alt="Image" />
+                        <div class="card-body">
+                            <p class="card-text">Answer text</p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="isCorrect">
+                                <label class="form-check-label" for="isCorrect">
+                                    Correct!
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <form>
+                        <div class="form-group row">
+                            <textarea class="form-control" id="askText" rows="3"
+                                placeholder="Enter your answer here"></textarea>
+                            <button type="submit" class="btn btn-primary mt-2 col-2">Answer</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="tags">
+                    <h3>Popular Tags</h3>
+                    <span class="badge bg-primary">Primary</span>
+                    <span class="badge bg-secondary">Secondary</span>
+                    <span class="badge bg-success">Success</span>
+                    <span class="badge bg-danger">Danger</span>
+                    <span class="badge bg-warning text-dark">Warning</span>
+                    <span class="badge bg-info text-dark">Info</span>
+                    <span class="badge bg-light text-dark">Light</span>
+                    <span class="badge bg-dark">Dark</span>
+                </div>
+                <div class="best-members pt-4">
+                    <h3>Best Members</h3>
+                    <div class="list-group list-group-flush">
+                        <button type="button" class="list-group-item list-group-item-action">First member</button>
+                        <button type="button" class="list-group-item list-group-item-action">Second member</button>
+                        <button type="button" class="list-group-item list-group-item-action">Third member</button>
+                        <button type="button" class="list-group-item list-group-item-action">Fourth member</button>
+                        <button type="button" class="list-group-item list-group-item-action">Fifth member</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer class="footer fixed-bottom container">
+</footer>
+
+</html>
