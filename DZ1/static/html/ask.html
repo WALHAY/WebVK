@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AskMe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between px-4">
+        <a href="#" class="navbar-brand"><span class="mb-0 h2">AskMe</span></a>
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Question" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div class="d-flex">
+            <div class="row">
+                <div class="col-4">
+                    <img src="" class="img-fluid h-100" alt="Image">
+                </div>
+                <div class="col-8">
+                    <div class="flex-grow-1">
+                        <h4 class="username">WALHAY</h4>
+                        <a class="pr-4" href="#">Settings</a>
+                        <a class="pr-4" href="#">Log Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="container-fluid m-4">
+        <div class="row">
+            <div class="col-8">
+                <h3 class="col-auto">New Question</h3>
+                <form>
+                    <div class="form-group row">
+                        <label for="askTitle" class="col-2 col-form-label">Title</label>
+                        <div class="col-8">
+                            <input type="text" class="form-control" id="askTitle" />
+                        </div>
+                    </div>
+                    <div class="form-group row mt-4">
+                        <label for="inputPassword" class="col-2 col-form-label">Text</label>
+                        <div class="col-8">
+                            <textarea class="form-control" id="askText" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row mt-4">
+                        <label for="askTags" class="col-2 col-form-label">Tags</label>
+                        <div class="col-8">
+                            <input type="text" class="form-control" id="askTags">
+                            <button type="submit" class="btn btn-primary mt-2">Ask!</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-4">
+                <div class="tags">
+                    <h3>Popular Tags</h3>
+                    <span class="badge bg-primary">Primary</span>
+                    <span class="badge bg-secondary">Secondary</span>
+                    <span class="badge bg-success">Success</span>
+                    <span class="badge bg-danger">Danger</span>
+                    <span class="badge bg-warning text-dark">Warning</span>
+                    <span class="badge bg-info text-dark">Info</span>
+                    <span class="badge bg-light text-dark">Light</span>
+                    <span class="badge bg-dark">Dark</span>
+                </div>
+                <div class="best-members pt-4">
+                    <h3>Best Members</h3>
+                    <div class="list-group list-group-flush">
+                        <button type="button" class="list-group-item list-group-item-action">First member</button>
+                        <button type="button" class="list-group-item list-group-item-action">Second member</button>
+                        <button type="button" class="list-group-item list-group-item-action">Third member</button>
+                        <button type="button" class="list-group-item list-group-item-action">Fourth member</button>
+                        <button type="button" class="list-group-item list-group-item-action">Fifth member</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer class="footer fixed-bottom container">
+</footer>
+
+</html>
